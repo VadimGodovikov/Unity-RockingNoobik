@@ -1,16 +1,33 @@
 Using pre-set license
 Built from '2023.2/staging' branch; Version is '2023.2.8f1 (a3bb09f8c8c4) revision 10730249'; Using compiler version '193431935'; Build Type 'Release'
+<<<<<<< HEAD
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ru' Physical Memory: 15647 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2023.2.8f1\Editor\Unity.exe
+=======
 OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 7252 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
 E:\Unity\2023.2.8f1\Editor\Unity.exe
+>>>>>>> main
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< HEAD
+D:/Unity/Unity-RockingNoobik
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52114
+-job-worker-count
+3
+=======
 E:/Unity/Projects/Rocking Noobik
 -logFile
 Logs/AssetImportWorker0.log
@@ -18,12 +35,18 @@ Logs/AssetImportWorker0.log
 64018
 -job-worker-count
 1
+>>>>>>> main
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
+<<<<<<< HEAD
+Successfully changed project path to: D:/Unity/Unity-RockingNoobik
+D:/Unity/Unity-RockingNoobik
+=======
 Successfully changed project path to: E:/Unity/Projects/Rocking Noobik
 E:/Unity/Projects/Rocking Noobik
+>>>>>>> main
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -58,6 +81,30 @@ E:/Unity/Projects/Rocking Noobik
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
+Player connection [21952] Host "[IP] 192.168.0.12 [Port] 0 [Flags] 2 [Guid] 2897611246 [EditorId] 2897611246 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P49JBCI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21952] Host "[IP] 192.168.0.12 [Port] 0 [Flags] 2 [Guid] 2897611246 [EditorId] 2897611246 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P49JBCI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.8f1 (a3bb09f8c8c4)
+[Subsystems] Discovering subsystems at path D:/Unity/2023.2.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Unity-RockingNoobik/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1506)
+    Vendor:   ATI
+    VRAM:     7823 MB
+    Driver:   31.0.12042.2002
+Initialize mono
+Mono path[0] = 'D:/Unity/2023.2.8f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2023.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2023.2.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
+=======
 Player connection [7396] Host "[IP] 192.168.0.18 [Port] 0 [Flags] 2 [Guid] 2780287560 [EditorId] 2780287560 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8JL2NI5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 Player connection [7396] Host "[IP] 192.168.0.18 [Port] 0 [Flags] 2 [Guid] 2780287560 [EditorId] 2780287560 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8JL2NI5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 1
@@ -80,6 +127,7 @@ Mono path[0] = 'E:/Unity/2023.2.8f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/2023.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Unity/2023.2.8f1/Editor/Data/MonoBleedingEdge/etc'
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+>>>>>>> main
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -92,6 +140,18 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
+<<<<<<< HEAD
+Register platform support module: D:/Unity/2023.2.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001821 seconds.
+- Loaded All Assemblies, in  0.647 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.558 seconds
+Domain Reload Profiling: 1203ms
+	BeginReloadAssembly (202ms)
+=======
 Register platform support module: E:/Unity/2023.2.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/Unity/2023.2.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: E:/Unity/2023.2.8f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
@@ -113,11 +173,35 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 - Finished resetting the current domain, in  0.773 seconds
 Domain Reload Profiling: 1374ms
 	BeginReloadAssembly (219ms)
+>>>>>>> main
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (272ms)
+		LoadAssemblies (201ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (268ms)
+			TypeCache.Refresh (266ms)
+				TypeCache.ScanAssembly (246ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (559ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (474ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (13ms)
+			ProcessInitializeOnLoadAttributes (349ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+=======
 	RebuildCommonClasses (58ms)
 	RebuildNativeTypeToScriptingClass (22ms)
 	initialDomainReloadingComplete (74ms)
@@ -139,6 +223,7 @@ Domain Reload Profiling: 1374ms
 			BeforeProcessingInitializeOnLoad (8ms)
 			ProcessInitializeOnLoadAttributes (187ms)
 			ProcessInitializeOnLoadMethodAttributes (64ms)
+>>>>>>> main
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -159,6 +244,86 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+<<<<<<< HEAD
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Unity-RockingNoobik\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Unity-RockingNoobik\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.207 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.007 seconds
+Domain Reload Profiling: 2214ms
+	BeginReloadAssembly (524ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (547ms)
+		LoadAssemblies (427ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (280ms)
+			TypeCache.Refresh (238ms)
+				TypeCache.ScanAssembly (218ms)
+			BuildScriptInfoCaches (31ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1007ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (657ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (534ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3131 unused Assets / (1.0 MB). Loaded Objects now: 3689.
+Memory consumption went from 114.9 MB to 114.0 MB.
+Total: 9.984700 ms (FindLiveObjects: 1.060300 ms CreateObjectMapping: 0.672700 ms MarkObjects: 6.405800 ms  DeleteObjects: 1.841500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 452105.243901 seconds.
+  path: Assets/Noob.fbx
+  artifactKey: Guid(581ef6b2a95251a4aba80b23bbd81edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Noob.fbx using Guid(581ef6b2a95251a4aba80b23bbd81edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ef16b1e7df1967b5b85e1ff19069b06') in 0.4145142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 54
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.687219 seconds.
+  path: Assets/Noob.fbx
+  artifactKey: Guid(581ef6b2a95251a4aba80b23bbd81edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Noob.fbx using Guid(581ef6b2a95251a4aba80b23bbd81edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8088db3d64abd2a2561fb8a8ee1ddc2d') in 0.0592627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.214251 seconds.
+  path: Assets/Noob.fbx
+  artifactKey: Guid(581ef6b2a95251a4aba80b23bbd81edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Noob.fbx using Guid(581ef6b2a95251a4aba80b23bbd81edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7bc18dd276d829a4fec3603c3a8bb5a') in 0.0836857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.492652 seconds.
+  path: Assets/Noob.fbx
+  artifactKey: Guid(581ef6b2a95251a4aba80b23bbd81edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Noob.fbx using Guid(581ef6b2a95251a4aba80b23bbd81edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b09e7d1108b37db022f451373fc22883') in 0.0839836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
+=======
 Symbol file LoadedFromMemory doesn't match image E:\Unity\Projects\Rocking Noobik\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Unity\Projects\Rocking Noobik\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 - Loaded All Assemblies, in  1.062 seconds
@@ -225,4 +390,5 @@ Received Import Request.
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74fc8f8b714d5966f523153cf0274ab2') in 0.0005366 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+>>>>>>> main
 
