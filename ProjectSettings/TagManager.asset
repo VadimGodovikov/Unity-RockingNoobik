@@ -3,12 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Table
+  - TableTree
+  - TableWord
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Table
   - Water
   - UI
   - 
